@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+}
+.google-logo {
+  height: 100px;
+  width: 300px;
+  margin: 20px;
+}
+.input-logo-container {
+  display: flex;
+  flex-direction: row;
+}
+.search-logo {
+  height: 25px;
+  width: 25px;
+}
+
+.input-area {
+  border: 0px;
+  outline: none;
+}
+.list-search-items {
+  list-style-type: none;
+}

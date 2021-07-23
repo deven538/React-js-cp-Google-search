@@ -1,0 +1,22 @@
+/* Write your CSS here */
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.suggestion-heading {
+  color: #64748b;
+  font-size: 16px;
+}
+.arrow-logo {
+  height: 30px;
+  width: 30px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
